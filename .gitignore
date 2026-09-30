@@ -1,0 +1,27 @@
+﻿# Build outputs
+.next/
+out/
+node_modules/
+
+# Environment and platform-local state
+.env
+.env.*
+!.env.example
+.env*.local
+.vercel/
+.netlify/
+
+# OS/editor/local cache
+.DS_Store
+*.tsbuildinfo
+*.log
+
+# Local analysis, design exports, evidence libraries and generated QA artifacts
+analysis_tmp/
+here/
+screenshots/
+portfolio_assets_verified/
+portfolio_assets_verified.zip
+Solomon%20Portfolio%20Numbered%20Design%20Screens/
+Solomon%20Portfolio%20Numbered%20Design%20Screens.zip
+design-analysis-docs-and-ocr.zip

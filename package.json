@@ -1,0 +1,42 @@
+{
+    "name": "solomon-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint .",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@mdx-js/loader": "latest",
+        "@mdx-js/react": "latest",
+        "@next/mdx": "latest",
+        "@portabletext/react": "^8.0.1",
+        "@sanity/image-url": "^2.1.1",
+        "clsx": "latest",
+        "lucide-react": "latest",
+        "motion": "latest",
+        "next": "latest",
+        "next-sanity": "^13.3.4",
+        "react": "latest",
+        "react-dom": "latest",
+        "sanity": "^6.16.0",
+        "tailwind-merge": "latest"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "latest",
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "eslint": "latest",
+        "eslint-config-next": "latest",
+        "tailwindcss": "latest",
+        "typescript": "latest"
+    },
+    "engines": {
+        "node": "24.x",
+        "npm": ">=11"
+    }
+}
